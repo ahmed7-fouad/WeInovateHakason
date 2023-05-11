@@ -1,0 +1,73 @@
+<html>
+<head>
+  <title>CARE APPLICATION</title>
+  <link rel="stylesheet" href="signupstyle.css">
+</head>
+<body>
+  <div class="main-bg">
+    <div class="cont_centrar">
+      <div class="cont_login">
+        <h1 class="main-title"><strong>CARE</strong>APPLICATION</h1>
+        <div class="cont_back_info">
+          <div class="cont_info_log_sign_up">
+            <div class="col_md_sign_up">
+              <div class="cont_ba_opcitiy">
+                <h3>Don't have an account?</h3>
+                <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+              </div>
+            </div>
+            <div class="col_md_login">
+              <div class="cont_ba_opcitiy">
+                <h3>Have an account?</h3>
+                <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+              </div>
+            </div>
+          </div>
+          <div class="cont_forms">
+            <div class="cont_form_login">
+              <h2>LOGIN</h2>
+              <div class="form-group">
+                <label for="email"><i class="fa fa-envelope"></i></label>
+                <input type="text" name="email" placeholder="Email" />
+              </div>
+              <div class="form-group">
+                <label for="email"><i class="fa fa-lock"></i></label>
+                <input type="password" placeholder="Password" />
+              </div>
+              <div class="login-gap">
+                <a href="#">Forget Password?</a>
+                <button class="btn_login" onclick="cambiar_login()">LOGIN</button>
+              </div>
+            </div>
+            <div class="cont_form_sign_up">
+              <h2>SIGN UP</h2>
+              <div class="form-group">
+                <label for="fname"><i class="fa fa-user"></i></label>
+                <input type="text" placeholder="First Name" name="fname" />
+              </div>
+              <div class="form-group">
+                <label for="lname"><i class="fa fa-user"></i></label>
+                <input type="text" placeholder="Last Name" name="fname" />
+              </div>
+              <div class="form-group">
+                <label for="email"><i class="fa fa-envelope"></i></label>
+                <input type="email" placeholder="E-mail Address" />
+              </div>
+              <div class="form-group">
+                <label for="email"><i class="fa fa-lock"></i></label>
+                <input type="password" placeholder="Password" />
+              </div>
+              <div class="form-group">
+                <label for="email"><i class="fa fa-lock"></i></label>
+                <input type="password" placeholder="Confirm Password" />
+              </div>
+              <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<script src="signupjs.js"></script>
+</body>
+</html>
